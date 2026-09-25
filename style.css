@@ -1,10 +1,10 @@
 :root {
-  --bg: #141414;
-  --panel: #1c1c1c;
-  --panel-hover: #232323;
-  --line: #2c2c2c;
-  --text: #ececec;
-  --text-dim: #8f8f8f;
+  --bg: #040803;
+  --panel: #1B3618;
+  --panel-hover: #2C5828;
+  --line: #6E6858;
+  --text: #FDF6E5;
+  --text-dim: #B5AE9C;
   --radius: 3px;
 }
 
@@ -17,7 +17,7 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 }
 
 .intro h1 {
-  font-family: 'Fraunces', serif;
+  font-family: "League Spartan", sans-serif;
   font-weight: 500;
   font-size: clamp(28px, 4vw, 42px);
   line-height: 1.15;
