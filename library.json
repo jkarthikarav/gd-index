@@ -1,18 +1,95 @@
 [
   {
-    "file": "HCF.webp",
-    "title": "HCF",
+    "file": "Adbee Films OMK Promo Stories - Mockup.webp",
+    "title": "Adbee Films OMK Promo Stories Mockup",
     "colors": [
-      "#cbc5a9",
-      "#dddac2",
-      "#ac9779",
-      "#867256",
-      "#5c4935"
+      "#bcbbcc",
+      "#e3e0ea",
+      "#a88d99",
+      "#6965cc",
+      "#41385f"
     ]
   },
   {
-    "file": "JAP-01.webp",
-    "title": "JAP 01",
+    "file": "Adbee Films OMK Webisode YT Thumbnails - Mockup.webp",
+    "title": "Adbee Films OMK Webisode YT Thumbnails Mockup",
+    "colors": [
+      "#d5d6de",
+      "#a55e56",
+      "#423029",
+      "#aca6ad",
+      "#5a869e"
+    ]
+  },
+  {
+    "file": "Dipika for Mayor Campaign Anti Data Center Postcard - Mockup.webp",
+    "title": "Dipika For Mayor Campaign Anti Data Center Postcard Mockup",
+    "colors": [
+      "#212313",
+      "#a09588",
+      "#333c63",
+      "#eabc1d",
+      "#efeee3"
+    ]
+  },
+  {
+    "file": "Dipika for Mayor Campaign Meet and Greet Invite - Mockup.webp",
+    "title": "Dipika For Mayor Campaign Meet And Greet Invite Mockup",
+    "colors": [
+      "#e4e3da",
+      "#051454",
+      "#c2c0bc",
+      "#5e5353",
+      "#928b8c"
+    ]
+  },
+  {
+    "file": "Her Choice Fashions Product Tag - Mockup.webp",
+    "title": "Her Choice Fashions Product Tag Mockup",
+    "colors": [
+      "#996e1a",
+      "#ddd3d2",
+      "#433427",
+      "#170d0b",
+      "#c6a854"
+    ]
+  },
+  {
+    "file": "Her Choice Fashions Standee - Mockup.webp",
+    "title": "Her Choice Fashions Standee Mockup",
+    "colors": [
+      "#754d3a",
+      "#2f2219",
+      "#a19991",
+      "#ede4d6",
+      "#cb9259"
+    ]
+  },
+  {
+    "file": "IMG England Brochure Page 01 - Mockup.webp",
+    "title": "IMG England Brochure Page 01 Mockup",
+    "colors": [
+      "#c2633f",
+      "#b8bdb3",
+      "#9b987b",
+      "#31577e",
+      "#875140"
+    ]
+  },
+  {
+    "file": "IMG England Brochure Page 02 - Mockup.webp",
+    "title": "IMG England Brochure Page 02 Mockup",
+    "colors": [
+      "#c46740",
+      "#999795",
+      "#b5b3b3",
+      "#d1d3d4",
+      "#695f53"
+    ]
+  },
+  {
+    "file": "IMG Japan Brochure Page 01 - Mockup.webp",
+    "title": "IMG Japan Brochure Page 01 Mockup",
     "colors": [
       "#d1d1d1",
       "#b6b6b6",
@@ -22,113 +99,25 @@
     ]
   },
   {
-    "file": "JAP-02.webp",
-    "title": "JAP 02",
+    "file": "IMG Japan Brochure Page 02 - Mockup.webp",
+    "title": "IMG Japan Brochure Page 02 Mockup",
     "colors": [
-      "#a6a6a6",
-      "#c1c0c1",
-      "#868787",
-      "#d6d5d5",
-      "#b9838e"
+      "#acaaaa",
+      "#c3c2c2",
+      "#949393",
+      "#d7d6d6",
+      "#55595b"
     ]
   },
   {
-    "file": "Meet&Greet.webp",
-    "title": "Meet&Greet",
+    "file": "The Akaali movie Second Look Poster - Mockup.webp",
+    "title": "The Akaali Movie Second Look Poster Mockup",
     "colors": [
-      "#e8e7df",
-      "#d7d5cc",
-      "#051454",
-      "#a39e9e",
-      "#655a59"
-    ]
-  },
-  {
-    "file": "OMK-Stories.webp",
-    "title": "OMK Stories",
-    "colors": [
-      "#bab9c9",
-      "#e1dfe9",
-      "#a88996",
-      "#6965cd",
-      "#403860"
-    ]
-  },
-  {
-    "file": "OMK-Thumbnails.webp",
-    "title": "OMK Thumbnails",
-    "colors": [
-      "#d3d2db",
-      "#42312a",
-      "#9a7051",
-      "#7395a8",
-      "#cb2880"
-    ]
-  },
-  {
-    "file": "OXF-01.webp",
-    "title": "OXF 01",
-    "colors": [
-      "#c1633f",
-      "#b2bdbc",
-      "#969579",
-      "#c2b695",
-      "#36567b"
-    ]
-  },
-  {
-    "file": "OXF-02.webp",
-    "title": "OXF 02",
-    "colors": [
-      "#c56740",
-      "#a6a4a2",
-      "#cdcfd0",
-      "#7e7d7c",
-      "#65523c"
-    ]
-  },
-  {
-    "file": "PostCard.webp",
-    "title": "PostCard",
-    "colors": [
-      "#222313",
-      "#b6a271",
-      "#1c2e70",
-      "#67605c",
-      "#e2e2da"
-    ]
-  },
-  {
-    "file": "Second-Look_The-Akaali-Official.webp",
-    "title": "Second Look The Akaali Official",
-    "colors": [
-      "#12150e",
-      "#392f22",
-      "#9b947e",
-      "#787d35",
-      "#d7dfe1"
-    ]
-  },
-  {
-    "file": "Standee-01.webp",
-    "title": "Standee 01",
-    "colors": [
-      "#30241a",
-      "#6b5f52",
-      "#af9a87",
-      "#8a3b20",
-      "#ede4d5"
-    ]
-  },
-  {
-    "file": "Tag.webp",
-    "title": "Tag",
-    "colors": [
-      "#966917",
-      "#ddd3d1",
-      "#3f3329",
-      "#160d0b",
-      "#c3a450"
+      "#1f1d15",
+      "#8d8a61",
+      "#5f5f2c",
+      "#d8e1e3",
+      "#b4ae93"
     ]
   }
 ]
