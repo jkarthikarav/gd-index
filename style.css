@@ -1,0 +1,217 @@
+:root {
+  --bg: #141414;
+  --panel: #1c1c1c;
+  --panel-hover: #232323;
+  --line: #2c2c2c;
+  --text: #ececec;
+  --text-dim: #8f8f8f;
+  --radius: 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  padding: 64px 48px 96px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 40px 20px 72px;
+  }
+}
+
+.intro {
+  max-width: 620px;
+  margin-bottom: 56px;
+}
+
+.intro h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.15;
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+
+.intro p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin: 0;
+  max-width: 52ch;
+}
+
+/* ---------- Histogram ---------- */
+
+.histogram-wrap {
+  margin-bottom: 64px;
+}
+
+.histogram {
+  display: flex;
+  align-items: flex-end;
+  height: 220px;
+  gap: 1px;
+  border-bottom: 1px solid var(--line);
+  cursor: crosshair;
+  position: relative;
+}
+
+.histogram-bar {
+  flex: 1 1 0;
+  min-width: 1px;
+  border-radius: 1px 1px 0 0;
+  transition: transform 120ms ease, filter 120ms ease;
+  transform-origin: bottom;
+}
+
+.histogram:hover .histogram-bar {
+  filter: brightness(0.85);
+}
+
+.histogram-bar:hover {
+  filter: brightness(1.15) !important;
+  transform: scaleY(1.03);
+}
+
+.histogram-bar.is-active {
+  filter: brightness(1.25) !important;
+  outline: 2px solid var(--text);
+  outline-offset: -2px;
+}
+
+.histogram-axis {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+.click-marker {
+  position: absolute;
+  bottom: 0;
+  width: 2px;
+  height: 100%;
+  background: var(--text);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 120ms ease, left 60ms ease;
+}
+
+.click-marker.is-visible {
+  opacity: 0.9;
+}
+
+/* ---------- Mosaic ---------- */
+
+.mosaic-wrap {
+  margin-bottom: 32px;
+}
+
+.mosaic-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+#mosaic-status {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.reset-btn {
+  background: none;
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-size: 13px;
+  font-family: inherit;
+  padding: 7px 14px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 120ms ease, background 120ms ease;
+  white-space: nowrap;
+}
+
+.reset-btn:hover {
+  border-color: var(--text-dim);
+  background: var(--panel);
+}
+
+.mosaic {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.mosaic-item {
+  background: var(--panel);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  transition: transform 150ms ease, border-color 150ms ease;
+}
+
+.mosaic-item:hover {
+  transform: translateY(-2px);
+  border-color: var(--text-dim);
+}
+
+.mosaic-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--bg);
+}
+
+.mosaic-item .meta {
+  padding: 10px 12px 12px;
+}
+
+.mosaic-item .title {
+  font-size: 13px;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+
+.swatches {
+  display: flex;
+  gap: 4px;
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.empty-state {
+  color: var(--text-dim);
+  font-size: 14px;
+  text-align: center;
+  padding: 48px 0;
+}
+
+.empty-state code {
+  background: var(--panel);
+  padding: 2px 6px;
+  border-radius: 3px;
+}

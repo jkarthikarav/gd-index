@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Palette Index</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="intro">
+    <h1>Every color I've used, in one place.</h1>
+    <p>Each bar below is a hue that shows up somewhere in this library. Taller means it's used more often. Click anywhere on the strip to find the designs built around that color.</p>
+  </header>
+
+  <section class="histogram-wrap" aria-label="Color histogram">
+    <div id="histogram" class="histogram"></div>
+    <div class="histogram-axis">
+      <span>0°</span>
+      <span>90°</span>
+      <span>180°</span>
+      <span>270°</span>
+      <span>360°</span>
+    </div>
+  </section>
+
+  <section class="mosaic-wrap">
+    <div class="mosaic-header">
+      <p id="mosaic-status">Showing all designs.</p>
+      <button id="reset-btn" class="reset-btn" hidden>Show everything again</button>
+    </div>
+    <div id="mosaic" class="mosaic"></div>
+  </section>
+
+  <p id="empty-state" class="empty-state" hidden>
+    No designs loaded yet. Drop images into <code>assets/library</code> and push — the palette will build itself.
+  </p>
+
+  <script src="script.js"></script>
+</body>
+</html>

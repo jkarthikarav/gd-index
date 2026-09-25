@@ -1,0 +1,12 @@
+{
+  "name": "palette-index",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auto-generates library.json by extracting dominant colors from images in assets/library.",
+  "scripts": {
+    "generate": "node scripts/extract-colors.js"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  }
+}
